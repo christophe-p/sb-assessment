@@ -1,6 +1,6 @@
 <?php
 
-// Load front-page hero conditionally
+// Load front-page or page hero conditionally
 function azarahealthcare_hero() {
   if ( is_front_page() ) {
     locate_template( 'template-parts/hero-front-page.php', true );
