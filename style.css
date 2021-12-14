@@ -435,6 +435,7 @@ template {
 
 /* Color variables */
 /* Theme colors */
+/* Delete */
 /* Alice Blue */
 /* Midnight Blue */
 /*$primary-color-light: lighten($primary-color, 20%);*/
@@ -449,20 +450,13 @@ $accent-color-hover: darken($accent-color, 5%);
 $accent-color-hover: lighten($accent-color, 5%);
 */
 /* Font variables */
-/*$subheading-font: "Source Serif Pro", serif;*/
 /* line 1, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/variables/_placeholders.scss */
 h1, h2, h3, h4, h5, h6, .faq-question {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
-  color: #393d3f;
   line-height: 1.5;
 }
 
-/*%subheadings {
-  font-family: $subheading-font;
-  font-weight: 500;
-  color: $my-slategrey;
-}*/
 /* line 1, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/elements/_html.scss */
 html {
   overflow-x: hidden;
@@ -485,11 +479,11 @@ body {
   overflow-x: hidden;
   margin: 0;
   background-color: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  line-height: 1.9;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 2;
   text-align: left;
-  color: #393d3f;
+  color: #666666;
 }
 
 /* line 1, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/elements/_headings.scss */
@@ -550,7 +544,7 @@ h4 {
 .service-section h2,
 .about-section h2,
 .faq-section h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   /*font-size: 2rem;*/
   color: #393d3f;
   margin-bottom: 60px;
@@ -563,7 +557,7 @@ h4 {
   width: 180px;
   height: 60px;
   border-radius: 7px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   z-index: 999;
@@ -634,7 +628,7 @@ figure {
 /* End of Underscores defaults */
 /* line 21, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/elements/_media.scss */
 .entry-content figcaption {
-  max-width: 650px;
+  max-width: 1280px;
   margin: 20px auto;
   font-size: 0.9rem;
 }
@@ -719,7 +713,7 @@ a:hover, a:focus, a:active {
 /* line 56, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_layout.scss */
 .entry-content > * {
   margin: 0 auto 40px;
-  max-width: 650px;
+  max-width: 1280px;
   padding-left: 0;
   padding-right: 0;
 }
@@ -748,7 +742,7 @@ a:hover, a:focus, a:active {
   margin: 1.5em auto;
   padding-left: 0;
   padding-right: 0;
-  max-width: 650px;
+  max-width: 1280px;
 }
 
 /* line 87, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_layout.scss */
@@ -842,7 +836,7 @@ a:hover, a:focus, a:active {
 .site-identity {
   display: flex;
   flex-flow: column;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   text-transform: uppercase;
   line-height: 1.5;
   text-decoration: none;
@@ -871,7 +865,7 @@ a.site-title:focus {
 /* line 1, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_contact.scss */
 .wpforms-field-container,
 .wpforms-submit-container {
-  max-width: 650px;
+  max-width: 1280px;
 }
 
 /* line 6, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_contact.scss */
@@ -896,7 +890,7 @@ textarea#wpforms-2541-field_2 {
   min-height: 300px;
   border: 1px solid #a6a6a6;
   border-radius: 4px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* line 28, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_contact.scss */
@@ -924,7 +918,7 @@ button#wpforms-submit-2541 {
   width: 180px;
   height: 60px;
   border-radius: 7px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   border: 2px solid #080708;
@@ -941,7 +935,7 @@ button#wpforms-submit-2541:hover {
 
 /* line 64, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_contact.scss */
 div.wpforms-container-full .wpforms-form .wpforms-submit-container {
-  max-width: 650px;
+  max-width: 1280px;
   text-align: center;
   padding-top: 30px;
 }
@@ -1049,7 +1043,7 @@ Copied from Underscores's sass\components\comments\_comments.scss (disabled)
 .comment-respond,
 .comments-title,
 .comment-list {
-  max-width: 650px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -1263,7 +1257,7 @@ span.says {
 
 /* line 18, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_hero.scss */
 .hero-container h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #fff;
 }
 
@@ -1331,7 +1325,7 @@ span.says {
 
 /* line 78, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_hero.scss */
 .home .hero-lead {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   color: #86E6E9;
   font-weight: 400;
@@ -1418,7 +1412,7 @@ span.says {
 }*/
 /* line 158, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_hero.scss */
 .hero-feature-heading {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   color: #86E6E9;
   font-weight: 400;
@@ -1564,14 +1558,14 @@ span.says {
 
 /* line 65, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_services.scss */
 .service-heading {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.5rem;
   color: #393d3f;
 }
 
 /* line 1, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_faq.scss */
 .faq-section {
-  max-width: 650px;
+  max-width: 1280px;
   margin: 80px auto 30px;
 }
 
@@ -1650,7 +1644,7 @@ span.says {
 
 /* line 16, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_cta.scss */
 .cta-text {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.8rem;
   color: #fff;
   margin: 1.2em 0;
@@ -1727,7 +1721,7 @@ span.says {
 /* line 40, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_portfolio.scss */
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
   margin-bottom: 0;
   color: #d3d3d3;
@@ -2024,7 +2018,7 @@ span.says {
 .menu,
 .header-menu,
 .footer-menu {
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* line 15, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/navigation/_navigation.scss */
@@ -2195,7 +2189,7 @@ span.says {
 .footer-menu {
   display: none;
   /* Add to customizer */
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 0.8rem;
   color: #393d3f;
   text-align: center;
@@ -2216,10 +2210,10 @@ span.says {
 /* Pagination */
 /* line 185, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/navigation/_navigation.scss */
 .posts-pagination {
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: larger;
   text-align: center;
-  max-width: 650px;
+  max-width: 1280px;
   margin: 20px auto;
 }
 
@@ -2468,7 +2462,7 @@ a.back-to-top {
 --------------------------------------------------------------*/
 /* line 82, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/gutenberg/_blocks.scss */
 .wp-block-group > .wp-block-group__inner-container > *:not(.entry-content) {
-  max-width: 650px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2542,7 +2536,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .entry-content ul,
 .entry-content ol {
   margin: 1.5em auto;
-  max-width: 650px;
+  max-width: 1280px;
   list-style-position: outside;
 }
 
@@ -2676,7 +2670,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 --------------------------------------------------------------*/
 /* line 280, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/gutenberg/_blocks.scss */
 .wp-block-video video {
-  max-width: 650px;
+  max-width: 1280px;
 }
 
 @media screen and (max-width: 782px) {
