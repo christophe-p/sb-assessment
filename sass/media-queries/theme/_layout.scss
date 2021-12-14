@@ -1,0 +1,47 @@
+@media screen and (max-width: 1200px) {
+ #main-grid {
+  grid-template-areas:
+   "primary"
+   "comments"
+   "secondary";
+  justify-content: unset;
+ }
+
+ #primary {
+  max-width: 100%;
+ }
+
+ #secondary,
+ #comments {
+  max-width: 100%;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+ }
+}
+
+@media screen and (max-width: 770px) {
+
+  .entry-content > *,
+  .entry-header,
+  .page-header,
+  .entry-footer,
+  .site-info,
+  .posts-navigation,
+  .post-navigation,
+  .page-navigation,
+  .comments-area,
+  .not-found .page-content,
+  .search .entry-summary {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  #secondary,
+  #comments {
+   padding-left: 14px;
+   padding-right: 14px;
+  }
+}

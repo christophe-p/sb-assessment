@@ -1,0 +1,35 @@
+@media screen and (max-width: 1260px) {
+  .home .hero-nav {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+ header.front-page-hero {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+ }
+
+ header.front-page-hero .hero-heading {
+  font-size: 3.25rem;
+  margin-bottom: 2rem;
+ }
+
+ header.front-page-hero .hero-subheading {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+ }
+
+ .home .hero-container h1 {
+   font-size: 10vw;
+ }
+
+ .hero-feature-heading {
+  font-size: 1.3rem;
+ }
+
+ .home .hero-lead,
+ .hero-feature-text {
+  font-size: 1.2rem;
+  }
+}

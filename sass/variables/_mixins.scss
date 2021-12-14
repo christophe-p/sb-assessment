@@ -1,0 +1,7 @@
+@mixin content($text-align) {
+  font-family: $content-font;
+  font-size: $content-font-size;
+  line-height: $content-line-height;
+  text-align: $text-align;
+  color: $primary-text-color;
+}

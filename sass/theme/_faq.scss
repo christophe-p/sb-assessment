@@ -1,0 +1,54 @@
+.faq-section {
+  max-width: $content-max-width;
+  margin: 80px auto 30px;
+}
+
+.faq-section-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-top: 1px solid $my-grey;
+}
+
+.faq-item:last-child {
+  border-bottom: 1px solid $my-grey;
+}
+
+.faq-question {
+  @extend %headings;
+  font-size: 1.25rem;
+  text-align: left;
+  cursor: pointer;
+  padding: 15px 0 10px 4px;
+  margin-bottom: 5px;
+}
+
+.faq-question::before {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.2rem;
+  float: right;
+  padding-left: 14px;
+  padding-right: 4px;
+}
+
+.active-faq-question::before {
+  content: "\f106";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.2rem;
+  float: right;
+  padding-left: 14px;
+  padding-right: 4px;
+}
+
+.faq-answer {
+  margin: 0 0 20px 0;
+  padding: 0 4px 0 4px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}

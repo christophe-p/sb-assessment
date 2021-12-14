@@ -1,0 +1,81 @@
+/*#masthead {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  justify-content: center;
+}
+
+#masthead > * {
+  padding: 14px;
+}*/
+
+.site-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  color: $my-white;
+  z-index: 2;
+  background-color: transparent;
+}
+
+.site-branding {
+  /*padding: 40px 20px 0 120px;*/
+  /*flex-basis: 550px; /*Pertains to the element as a flex item, not flex container*/
+  /*display: flex;
+  width: 40%;
+  justify-content: left;
+  align-items: flex-end;*/
+  display: flex;
+  align-items: flex-end;
+  margin-left: 180px;
+  margin-top: 40px;
+  float: left;
+}
+
+.site-branding img {
+  border: 5px solid white;
+  border-radius: 15px;
+  padding: 6px;
+  max-width: initial; // Override the global img max-width of 100%
+  width: 40px;
+  height: auto;
+  float: left;
+}
+
+.site-branding img:hover,
+.site-branding img:focus {
+  border-color: $accent-color;
+}
+
+/* Uncomment and enqueue logo.js in functions.php to enable animated logo & title
+/*.site-title {
+  display: none;
+}*/
+
+.site-identity {
+  display: flex;
+  flex-flow: column;
+  font-family: $heading-font;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+a.site-title {
+  color: $accent-color;
+  font-size: 1.27rem;
+  text-decoration: none;
+}
+
+a.site-title:hover,
+a.site-title:focus {
+  color: $my-white;
+  text-decoration: none;
+}
+
+.tagline {
+  font-size: 1rem;
+}

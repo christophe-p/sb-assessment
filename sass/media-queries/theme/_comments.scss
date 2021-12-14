@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+
+  .comment-form-comment > textarea,
+  .comment-form-author > input,
+  .comment-form-email > input,
+  .comment-form-url > input {
+  		max-width: 90vw;
+  }
+}

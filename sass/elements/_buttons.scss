@@ -1,0 +1,48 @@
+.button-learn,
+.button-touch {
+  width: 180px;
+  height: 60px;
+  border-radius: 7px;
+  font-family: $navigation-font;
+  font-size: 1.2rem;
+  font-weight: 700;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.button-learn {
+  border: 2px solid $my-black;
+  background-color: transparent;
+  color: $my-black;
+}
+
+.hero-nav .button-learn {
+  border: 2px solid $my-white;
+  color: $my-white;
+  font-weight: 400;
+
+}
+
+.button-touch {
+  border: 2px solid $accent-color;
+  background-color: $accent-color;
+  color: $my-black;
+}
+
+.button-text::after {
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.1rem;
+  display: inline-block;
+  margin-left: -15px;
+  opacity: 0;
+  transform: translate(0);
+ 	transition: all 0.3s ease-in-out 0s;
+}
+
+button:hover .button-text::after {
+  margin-left: 10px;
+  opacity: 1;
+  transform: translate(3px);
+}

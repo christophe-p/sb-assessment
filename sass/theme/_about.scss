@@ -1,0 +1,38 @@
+.home .about-section {
+ height: auto;
+ padding: 60px 0 0;
+ width: 100%;
+ margin: 0 auto;
+}
+
+.home .about-section-wrapper {
+  margin: 80px auto;
+  max-width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.home .about-text {
+  width: 500px;
+  font-size: 1.6rem;
+}
+
+.home .about-image {
+  width: 450px;
+}
+
+.home .about-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.page-id-2933 .about-image {
+  width: 450px;
+}
+
+.page-id-2933 .about-image image {
+  width: 100%;
+  height: 100%;
+}

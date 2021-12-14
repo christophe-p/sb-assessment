@@ -1,0 +1,16 @@
+a {
+	color: lighten($primary-color, 20%);
+	text-decoration: underline;
+
+	&:visited {
+		color: lighten($primary-color, 20%);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: lighten($primary-color, 20%);
+		text-decoration: none;
+    outline: 0;
+	}
+}

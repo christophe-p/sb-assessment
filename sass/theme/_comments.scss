@@ -1,0 +1,128 @@
+/*
+Copied from Underscores's sass\components\comments\_comments.scss (disabled)
+*/
+
+/* Underscores defaults */
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+/* End of Underscores defaults */
+
+.comments-area {
+	padding: 20px 0 60px 0;
+	border-top: 1px solid $my-grey;
+}
+
+.comments-heading,
+.comment-respond,
+.comments-title,
+.comment-list {
+	max-width: $content-max-width;
+	margin: 0 auto;
+}
+
+.comments-heading {
+	text-align: left;
+	padding-top: 40px;
+}
+
+.comment-list {
+	padding-left: 0;
+	padding-bottom: 60px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid $my-grey;
+}
+
+.comments-title {
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+.comment-reply-title {
+  margin-bottom: 0.8rem;
+  padding-top: 40px;
+}
+
+.comment-form-comment > label {
+	display: block;
+}
+
+.comment-form-comment > textarea {
+	/*width: $content-max-width;*/
+	min-width: 100%;
+}
+
+.comment-body {
+	font-size: smaller;
+	margin-top: 1.5rem;
+}
+
+.comment-form > .logged-in-as ,
+.comment-form > .comment-notes,
+.comment-form > .comment-form-cookies-consent {
+	font-size: smaller;
+}
+
+.comment-meta {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: start;
+	font-size: smaller;
+}
+
+.comment-author {
+	margin: 10px 0;
+	padding-top: 3px;
+}
+
+.comment-author > img {
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.comment-metadata,
+.comment-edit-link {
+	padding-left: 10px;
+	align-self: center;
+}
+
+span.says {
+	display: none;
+}
+
+.comment-content > p {
+	font-size: medium;
+	padding: 10px 0;
+	margin-bottom: 0;
+}
+
+.comment-list .children {
+	margin-left: 20px;
+}
+
+.comment-reply-link {
+	display: inline-block;
+	width: 60px;
+	font-family: sans-serif;
+  font-size: small;
+	text-align: center;
+  border: 1px solid black;
+}
+
+#cancel-comment-reply-link {
+	margin-left: 20px;
+}
+
+.comment-form input.submit {
+	height: 50px;
+  width: 150px;
+  border-radius: 0px;
+  border: 1px solid black;
+  background: transparent;
+  font-family: sans-serif;
+}
