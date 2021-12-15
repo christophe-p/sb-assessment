@@ -1,6 +1,8 @@
+/* Header menu */
+
 .main-navigation.topnav {
   float: right;
-  margin-top: 31px;
+  margin-top: 25px;
 }
 
 .menu-item a {
@@ -11,18 +13,30 @@
   text-transform: lowercase;
   text-decoration: none;
   margin-left: 52px;
+
     &:hover {
       color: lighten($azara-dark-grey, 20%);
     }
 }
 
-/* Header menus */
+.menu-item-3055 a {
+  display: inline-block;
+  width: 138px;
+  height: 40px;
+  background-color: $azara-light-orange;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+
+    &:hover {
+      color: white;
+      background-color: lighten($azara-light-orange, 5%);
+    }
+}
 
 .header-menu {
-  float: right;
-  list-style-type: none;
   margin: 0;
-  padding: 0;
 }
 
 .wide-screen-nav .menu-item {
@@ -41,44 +55,6 @@
 .mobile-nav > .header-menu {
   display: none;
 }
-
-
-.wide-screen-nav li {
-  position: relative;
-}
-
-.wide-screen-nav .sub-menu {
-  /* Uncomment for testing in dev tools */
-  display: block;
-  display: none;
-  position: absolute;
-  top: 30px;
-  left: 0;
-  /*z-index: 99999;*/
-  width: 250px;
-  /* Set padding here to adjust distance between nav bar and sub menu */
-  padding-top: 20px;
-}
-
-.sub-menu .sub-menu {
-  top: 50px;
-  padding-top: 0;
-}
-
-.wide-screen-nav .sub-menu .menu-item {
-  background-color: $secondary-color;
-  display: block;
-  width: auto;
-  padding: 0 0 15px 5px;
-}
-
-.wide-screen-nav .sub-menu .menu-item:first-child {
-  padding-top: 20px;
-  margin-top: 15px;
-  /*border-top: 1px solid $my-white;*/
-}
-
-
 
 /* Footer menus */
 
