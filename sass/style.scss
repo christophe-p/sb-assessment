@@ -22,16 +22,6 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 /*@import "plugins/jetpack/infinite-scroll";*/
 
-/*@import "plugins/woocommerce/checkout";
-@import "plugins/woocommerce/components";
-@import "plugins/woocommerce/products";
-@import "plugins/woocommerce/single-product";
-@import "plugins/woocommerce/tables";
-@import "plugins/woocommerce/widgets";
-*/
-
-@import "utilities/accessibility";
-
 @import "generic/box-sizing";
 @import "generic/normalize";
 @import "generic/loggedin";
@@ -48,38 +38,18 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 @import "elements/buttons";
 @import "elements/media";
 @import "elements/links";
-/*@import "elements/forms";
-@import "elements/fields";
-@import "elements/hr";
-@import "elements/lists";
-@import "elements/tables";*/
 
 @import "theme/layout";
 @import "theme/header";
 @import "theme/contact";
 @import "theme/content";
 @import "theme/footer";
-@import "theme/comments";
 @import "theme/text";
-@import "theme/carousel";
 @import "theme/hero";
 @import "theme/services";
-@import "theme/faq";
-@import "theme/cta";
-@import "theme/portfolio";
-@import "theme/about";
-@import "theme/animations";
-/*@import "theme/accordion";
-@import "theme/animations";*/
 
 @import "navigation/hamburger";
 @import "navigation/navigation";
-@import "navigation/back-to-top";
-
-@import "utilities/alignments";
-@import "utilities/accessibility";
-
-@import "gutenberg/blocks";
 
 @import "media-queries/generic/loggedin";
 @import "media-queries/gutenberg/blocks";

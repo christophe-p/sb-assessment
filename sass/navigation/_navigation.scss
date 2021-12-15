@@ -1,32 +1,20 @@
-/* General */
-
 .main-navigation.topnav {
   float: right;
-  margin-top: 72px;
-  margin-right: 200px;
-}
-
-.menu,
-.header-menu,
-.footer-menu {
-  font-family: $navigation-font;
-}
-
-.menu-item {
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  display: inline-block;
+  margin-top: 31px;
 }
 
 .menu-item a {
+  font-family: $navigation-font;
+  font-weight: 700;
+  font-size: 20px;
+  color: $azara-dark-grey;
+  text-transform: lowercase;
   text-decoration: none;
-  margin-left: 2rem;
-  color: $my-white;
-  letter-spacing: 1px;
-  /*padding-bottom: 10px;*/
-  z-index: 99999;
+  margin-left: 52px;
+    &:hover {
+      color: lighten($azara-dark-grey, 20%);
+    }
 }
-
 
 /* Header menus */
 
@@ -54,15 +42,6 @@
   display: none;
 }
 
-/* Add arrow to the right of parent menu items */
-.menu-item-has-children > a::after {
-  font-family: 'dashicons';
-  content: "\f347";
-  display: inline-flex;
-  position: relative;
-  top: 4px;
-  left: 3px;
-}
 
 .wide-screen-nav li {
   position: relative;
@@ -99,25 +78,6 @@
   /*border-top: 1px solid $my-white;*/
 }
 
-/* Add triangle on top of the dropdown menu's first child */
-.wide-screen-nav .sub-menu .menu-item:first-child::before {
-  content: "";
-  height: 0;
-  width: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid $secondary-color;
-  position: absolute;
-  top: -9px;
-  left: 50%;
-  margin: 0 0 0 -15px;
-  z-index: 100;
-}
-
-/* Source of problem in dropdown links */
-.wide-screen-nav ul li:hover > ul {
-  display: block;
-}
 
 
 /* Footer menus */
@@ -167,53 +127,4 @@
   line-height: 5.5;
   padding-left: 0;
   margin-bottom: 0;
-}
-
-
-/* Posts navigation */
-
-.nav-links {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-
-/* Pagination */
-
-.posts-pagination {
-  font-family: $navigation-font;
-  font-size: larger;
-  text-align: center;
-	max-width: $content-max-width;
-	margin: 20px auto;
-}
-
-.page-numbers {
-  margin: 0 20px;
-  line-height: 2.4;
-}
-
-.page-numbers.current {
-  display: inline-block;
-  background: $primary-color;
-  color: $my-white;
-  border-radius: 51%;
-  width: 44px;
-  height: 44px;
-}
-
-.page-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-  width: 100%;
-  padding: 20px 0;
-  font-weight: bold;
-  border-top: 1px solid $my-grey;
-}
-
-.page-links > * {
-  padding: 0 10px;
 }

@@ -38,6 +38,7 @@ if ( ! function_exists( 'azarahealthcare_setup' ) ) :
 				'height'      => 56,
 				'flex-width'  => true,
 				'flex-height' => true,
+				'header-text' => array( 'site-title', 'site-description', ),
 			)
 		);
 
