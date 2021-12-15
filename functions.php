@@ -65,7 +65,7 @@ if ( ! function_exists( 'azarahealthcare_setup' ) ) :
       	'wide-screen-nav' => esc_html__( 'Wide Screen Nav', 'azarahealthcare' ),
  				'mobile-nav' => esc_html__( 'Mobile Nav', 'azarahealthcare' ),
 				'footer-nav-1' => esc_html__( 'Footer Nav 1', 'azarahealthcare' ),
-        'footer-nav-1' => esc_html__( 'Footer Nav 2', 'azarahealthcare' ),
+        'footer-nav-2' => esc_html__( 'Footer Nav 2', 'azarahealthcare' ),
       )
    );
 
