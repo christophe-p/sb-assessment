@@ -1,4 +1,4 @@
-	<footer id="colophon" class="site-footer" style="background-color: <?php echo get_theme_mod( 'footer_color', '#EFF4FB' ); ?>">
+	<footer id="colophon" class="site-footer">
 
 		<section class="mega-footer-wrapper">
 

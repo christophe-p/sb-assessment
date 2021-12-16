@@ -5,10 +5,11 @@
   margin-top: 25px;
 }
 
-.menu-item a {
+.topnav .menu-item a {
   font-family: $navigation-font;
   font-weight: 700;
   font-size: 20px;
+  line-height: 2;
   color: $azara-dark-grey;
   text-transform: lowercase;
   text-decoration: none;
@@ -19,7 +20,7 @@
     }
 }
 
-.menu-item-3055 a {
+.topnav .menu-item-3055 a {
   display: inline-block;
   width: 138px;
   height: 40px;
@@ -58,49 +59,29 @@
 
 /* Footer menus */
 
-.mega-footer-1 #menu-social-menu {
-  display: inline;
-  padding-left: 0;
-}
-
-.mega-footer-1 #menu-social-menu > li > a {
-  margin-right: 20px;
-  color: $primary-text-color;
-  font-size: 0.9rem;
-}
-
 .footer-widget-area .menu {
   padding-left: 0;
   display: grid;
 }
 
-.footer-widget-area .menu-item {
-  font-size: 0.9rem;
-}
-
 .footer-widget-area .menu > li > a {
   margin-left: 0;
-  color: $primary-text-color;
+  color: white;
   position: relative;
   text-decoration: none;
+  font-size: 16px;
+  line-height: 2;
 }
 
-.footer-widget-area dl, ol, ul {
-  margin-bottom: 1rem;
+.footer-widget-area #menu-social-menu {
   padding-left: 0;
+  display: flex;
 }
 
-.footer-widget-area dl, ol, ul > li {
-  list-style: none;
+.footer-widget-area #menu-social-menu > * {
+  padding: 0 25px 0 0;
 }
 
-.footer-menu {
-  display: none; /* Add to customizer */
-  font-family: $navigation-font;
-  font-size: 0.8rem;
-  color: $primary-text-color;
-  text-align: center;
-  line-height: 5.5;
-  padding-left: 0;
-  margin-bottom: 0;
+.footer-widget-area #menu-social-menu .dashicons {
+  font-size: 25px;
 }
