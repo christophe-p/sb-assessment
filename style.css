@@ -398,23 +398,25 @@ figure {
 /* line 12, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-section-1-image {
   grid-area: section-1-img;
-  /*max-width: 588px;*/
   height: 622px;
 }
 
-/* line 18, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 17, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-section-1-text {
   grid-area: section-1-txt;
   max-width: 510px;
 }
 
-/* line 23, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
-.hp-section-1-text h2 {
+/* line 22, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+.hp-section-1-text h2,
+.hp-section-4-text h2 {
   color: #333333;
+  margin-top: 10px;
 }
 
-/* line 27, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
-.hp-section-1-text p {
+/* line 28, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+.hp-section-1-text p,
+.hp-section-4-text p {
   font-size: 21px;
   font-weight: 400;
   line-height: 1.5;
@@ -422,26 +424,26 @@ figure {
   margin: 0;
 }
 
-/* line 35, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 37, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-section-1-image img {
   height: auto;
   max-width: inherit;
 }
 
-/* line 40, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 42, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-section-2 {
   margin: 0 auto;
   max-width: 1280px;
 }
 
-/* line 45, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 47, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-cards-wrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-/* line 51, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 53, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-card {
   box-sizing: border-box;
   position: relative;
@@ -456,7 +458,7 @@ figure {
   z-index: 999;
 }
 
-/* line 65, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 67, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-card-icon {
   position: absolute;
   top: 37px;
@@ -466,23 +468,23 @@ figure {
   height: 150px;
 }
 
-/* line 74, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 76, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-card-heading {
   text-align: center;
   color: #333333;
 }
 
-/* line 79, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 81, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-card-text {
   line-height: 1.5;
 }
 
-/* line 83, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 85, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 #hp-section-2 .hp-cards-wrapper .hp-card:nth-child(3) .hp-card-text {
   margin-top: 44px;
 }
 
-/* line 87, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 89, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-section-3 {
   width: 100%;
   min-height: 625px;
@@ -490,27 +492,27 @@ figure {
   margin-top: -245px;
 }
 
-/* line 94, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 96, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-section-3-text {
   max-width: 1000px;
   margin: 0 auto;
   padding: 280px 14px 180px;
 }
 
-/* line 100, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 102, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-section-3-text h2,
 .hp-section-3-text p {
   color: white;
   text-align: center;
 }
 
-/* line 106, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 108, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-section-3-text h2 {
   letter-spacing: 2px;
   margin-bottom: 30px;
 }
 
-/* line 111, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+/* line 113, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
 .hp-section-3-text p {
   max-width: 690px;
   font-size: 21px;
@@ -518,6 +520,42 @@ figure {
   line-height: 1.5;
   letter-spacing: 0.5px;
   margin: 0 auto;
+}
+
+/* line 122, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+.hp-section-4 {
+  max-width: 1280px;
+  margin: 50px auto 20px;
+  display: grid;
+  grid-template-areas: "section-4-img section-4-txt";
+  grid-column-gap: 62px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -130px;
+}
+
+/* line 134, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+.hp-section-4-image {
+  grid-area: section-4-img;
+  height: 793px;
+}
+
+/* line 139, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+.hp-section-4-image img {
+  height: auto;
+  max-width: inherit;
+}
+
+/* line 144, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+.hp-section-4-text {
+  grid-area: section-4-txt;
+  max-width: 400px;
+  padding-top: 100px;
+}
+
+/* line 150, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_sections.scss */
+.hp-section-4-text > img {
+  width: 137px;
 }
 
 /*@import "theme/services";*/

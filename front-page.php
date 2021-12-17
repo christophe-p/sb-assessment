@@ -6,11 +6,7 @@
 
   <?php locate_template( 'template-parts/front-page-section-3.php', true ); ?>
 
-  <!-- ?php locate_template( 'template-parts/front-page-services.php', true ); ? -->
-
-  <!-- ?php locate_template( 'template-parts/front-page-about.php', true ); ? -->
-
-  <!-- ?php locate_template( 'template-parts/front-page-cta.php', true ); ? -->
+  <?php locate_template( 'template-parts/front-page-section-4.php', true ); ?>
 
 <?php
  get_footer();

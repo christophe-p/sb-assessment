@@ -11,7 +11,6 @@
 
 .hp-section-1-image {
   grid-area: section-1-img;
-  /*max-width: 588px;*/
   height: 622px;
 }
 
@@ -20,11 +19,14 @@
   max-width: 510px;
 }
 
-.hp-section-1-text h2 {
+.hp-section-1-text h2,
+.hp-section-4-text h2 {
   color: $azara-dark-grey;
+  margin-top: 10px;
 }
 
-.hp-section-1-text p {
+.hp-section-1-text p,
+.hp-section-4-text p {
   font-size: 21px;
   font-weight: 400;
   line-height: 1.5;
@@ -115,4 +117,36 @@
   line-height: 1.5;
   letter-spacing: 0.5px;
   margin: 0 auto;
+}
+
+.hp-section-4 {
+  max-width: 1280px;
+  margin: 50px auto 20px;
+  display: grid;
+  grid-template-areas:
+    "section-4-img section-4-txt";
+  grid-column-gap: 62px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -130px;
+}
+
+.hp-section-4-image {
+  grid-area: section-4-img;
+  height: 793px;
+}
+
+.hp-section-4-image img {
+  height: auto;
+  max-width: inherit;
+}
+
+.hp-section-4-text {
+  grid-area: section-4-txt;
+  max-width: 400px;
+  padding-top: 100px;
+}
+
+.hp-section-4-text > img {
+  width: 137px;
 }
