@@ -54,13 +54,12 @@
   box-sizing: border-box;
   position: relative;
   max-width: 346px;
-  min-height: 543px;
   background-color: white;
   border: 1px solid $azara-light-grey;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   text-align: center;
   margin: 15px;
-  padding: 200px 36px 0;
+  padding: 200px 36px 35px;
   z-index: 999;
 }
 
@@ -80,6 +79,7 @@
 
 .hp-card-text {
   line-height: 1.5;
+  margin-bottom: 0;
 }
 
 #hp-section-2 .hp-cards-wrapper .hp-card:nth-child(3) .hp-card-text {
@@ -149,4 +149,8 @@
 
 .hp-section-4-text > img {
   width: 137px;
+}
+
+.hp-section-5 {
+  margin-top: 100px;
 }
