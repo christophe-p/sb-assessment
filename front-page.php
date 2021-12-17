@@ -12,5 +12,7 @@
 
   <?php locate_template( 'template-parts/front-page-section-6.php', true ); ?>
 
+  <?php locate_template( 'template-parts/front-page-section-7.php', true ); ?>
+
 <?php
  get_footer();
