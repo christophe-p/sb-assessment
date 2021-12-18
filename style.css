@@ -95,6 +95,7 @@ button {
   border-radius: 20px;
   height: 40px;
   padding: 0 25px;
+  cursor: pointer;
 }
 
 /* Underscores defaults */
