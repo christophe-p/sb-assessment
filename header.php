@@ -49,29 +49,10 @@
             wp_nav_menu( $args );
           ?>
 
-          <button class="hamburger hamburger--spin" id="hamburger" type="button">
-            <span class="hamburger-box">
-              <span class="hamburger-top"></span>
-              <span class="hamburger-center"></span>
-              <span class="hamburger-bottom"></span>
-            </span>
-          </button>
-
-          <?php
-            $args = array(
-            'theme_location' => 'mobile-nav',
-            'container' => 'nav',
-            'container_id' => 'mobile-nav',
-            'container_class' => 'mobile-nav',
-            'menu_class' => 'header-menu',
-            );
-            wp_nav_menu( $args );
-          ?>
-
       </nav><!-- #site-navigation -->
 
     </div><!-- .site-header-container -->
-      
+
   </header><!-- #masthead -->
 
   <?php do_action( 'azarahealthcare_after_header' ); ?>
