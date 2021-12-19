@@ -7,7 +7,7 @@
     <section class="hp-card">
 
      <div class="hp-card-icon">
-       <img src="https://sb-assessment.local/wp-content/uploads/2021/12/progress.svg" alt="">
+       <img src="https://christopheperez.com/sb-assessment/wp-content/uploads/2021/12/progress.svg" alt="">
      </div>
 
      <h3 class="hp-card-heading">
@@ -23,7 +23,7 @@
     <section class="hp-card">
 
      <div class="hp-card-icon">
-      <img src="https://sb-assessment.local/wp-content/uploads/2021/12/care.svg" alt="">
+      <img src="https://christopheperez.com/sb-assessment/wp-content/uploads/2021/12/care.svg" alt="">
      </div>
 
      <h3 class="hp-card-heading">
@@ -39,7 +39,7 @@
     <section class="hp-card">
 
      <div class="hp-card-icon">
-       <img src="https://sb-assessment.local/wp-content/uploads/2021/12/happy-family.svg" alt="">
+       <img src="https://christopheperez.com/sb-assessment/wp-content/uploads/2021/12/happy-family.svg" alt="">
      </div>
 
      <h3 class="hp-card-heading">

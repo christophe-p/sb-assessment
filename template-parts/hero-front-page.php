@@ -15,7 +15,7 @@
    </section>
 
    <section class="hp-hero-image">
-     <img src="https://sb-assessment.local/wp-content/uploads/2021/12/hero-bubble.png" alt="">
+     <img src="https://christopheperez.com/sb-assessment/wp-content/uploads/2021/12/hero-bubble.png" alt="">
    </section>
 
  </section>

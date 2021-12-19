@@ -15,7 +15,7 @@
     </section>
 
     <section class="hp-section-6-image">
-      <img src="https://sb-assessment.local/wp-content/uploads/2021/12/DDS-logo@2x.png" alt="">
+      <img src="https://christopheperez.com/sb-assessment/wp-content/uploads/2021/12/DDS-logo@2x.png" alt="">
     </section>
 
   </section>

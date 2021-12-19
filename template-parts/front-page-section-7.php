@@ -9,11 +9,11 @@
     <section class="section-7-card">
 
       <div class="section-7-check-icon">
-        <img src="https://sb-assessment.local/wp-content/uploads/2021/12/check.svg" alt="">
+        <img src="https://christopheperez.com/sb-assessment/wp-content/uploads/2021/12/check.svg" alt="">
       </div>
 
      <div class="section-7-card-img">
-       <img src="https://sb-assessment.local/wp-content/uploads/2021/12/medical.svg" alt="">
+       <img src="https://christopheperez.com/sb-assessment/wp-content/uploads/2021/12/medical.svg" alt="">
      </div>
 
      <p class="section-7-card-text">
@@ -25,11 +25,11 @@
     <section class="section-7-card">
 
       <div class="section-7-check-icon">
-        <img src="https://sb-assessment.local/wp-content/uploads/2021/12/check.svg" alt="">
+        <img src="https://christopheperez.com/sb-assessment/wp-content/uploads/2021/12/check.svg" alt="">
       </div>
 
      <div class="section-7-card-img">
-       <img src="https://sb-assessment.local/wp-content/uploads/2021/12/lock.svg" alt="">
+       <img src="https://christopheperez.com/sb-assessment/wp-content/uploads/2021/12/lock.svg" alt="">
      </div>
 
      <p class="section-7-card-text">
