@@ -90,6 +90,11 @@ button {
   cursor: pointer;
 }
 
+/* line 15, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/elements/_buttons.scss */
+button:hover {
+  background-color: #f8a037;
+}
+
 /* Underscores defaults */
 /* Make sure embeds and iframes fit their containers. */
 /* line 4, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/elements/_media.scss */
