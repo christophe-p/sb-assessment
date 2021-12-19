@@ -1,26 +1,8 @@
 <?php
 
-if ( ! defined( '_S_VERSION' ) ) {
-	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.0' );
-}
-
 if ( ! function_exists( 'azarahealthcare_setup' ) ) :
-	/**
-	 * Sets up theme defaults and registers support for various WordPress features.
-	 *
-	 * Note that this function is hooked into the after_setup_theme hook, which
-	 * runs before the init hook. The init hook is too late for some features, such
-	 * as indicating support for post thumbnails.
-	 */
+
 	function azarahealthcare_setup() {
-		/*
-		 * Make theme available for translation.
-		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on Azara Healthcare, use a find and replace
-		 * to change 'azarahealthcare' to the name of your theme in all the template files.
-		 */
-		load_theme_textdomain( 'azarahealthcare', get_template_directory() . '/languages' );
 
 		// Add theme support
 		add_theme_support( 'title-tag' );
@@ -57,14 +39,10 @@ if ( ! function_exists( 'azarahealthcare_setup' ) ) :
 			)
 		);
 
-		// Add custom image size for post thumbnails: 750px wide and unlimited height
-		//add_image_size( 'blog-post-thumb', 750, 9999 );
-
 		// Register nav menus.
 		register_nav_menus(
       array(
       	'wide-screen-nav' => esc_html__( 'Wide Screen Nav', 'azarahealthcare' ),
- 				'mobile-nav' => esc_html__( 'Mobile Nav', 'azarahealthcare' ),
 				'footer-nav-1' => esc_html__( 'Footer Nav 1', 'azarahealthcare' ),
         'footer-nav-2' => esc_html__( 'Footer Nav 2', 'azarahealthcare' ),
       )
@@ -132,9 +110,6 @@ function azarahealthcare_enqueue_scripts() {
 	// Enqueue main style sheet with dependencies
 	wp_enqueue_style( 'azarahealthcare-style', get_stylesheet_uri(), array( 'google-font-roboto' , 'google-font-quicksand' ), false, 'all' );
 
-	// Enqueue hamburger JS
-	wp_enqueue_script( 'hamburger', get_template_directory_uri() . '/js/hamburger.js', array(), _S_VERSION, true );
-
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -153,7 +128,7 @@ add_action( 'wp_enqueue_scripts', 'azarahealthcare_enqueue_scripts' );
 add_action( 'loop_end', 'azarahealthcare_comments', 1 );
 
 /**
- * Load front-page hero conditionally
+ * Load front-page hero or page hero conditionally
  */
 require get_template_directory() . '/inc/theme/load-hero.php';
 
@@ -166,19 +141,3 @@ require get_template_directory() . '/inc/theme/read-more.php';
  * Filter hook removing the prepended part of archive titles
  */
 require get_template_directory() . '/inc/theme/archive-titles.php';
-
-/**
- * Customizer additions
- */
-require get_template_directory() . '/inc/admin/customizer.php';
-
-/**
-	* Underscores default includes
-	*/
-
-/**
- * Load Jetpack compatibility file.
- */
-if ( defined( 'JETPACK__VERSION' ) ) {
-	require get_template_directory() . '/inc/underscores/jetpack.php';
-}
