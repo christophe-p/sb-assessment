@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<section id="main-grid" class="full-width">
-
 	<main id="primary" class="site-main">
 
 		<?php
@@ -37,9 +35,7 @@
 		endif;
 		?>
 
-	</main><!-- #primary -->
-
-</section><!-- #main-grid -->
+	</main><!-- #main -->
 
 <?php
 get_footer();
