@@ -7,7 +7,7 @@
 
 - The font sizes specified in the XD document look larger on my screen. I adapted them so that they look the same on the XD artboard and the WP website.
 
-- The hero is called conditionally by a function located at inc\theme\load-hero.php. Besides the header and footer, all other sections of the homepage can be found in the template-parts directory.
+- Except for the header and footer, all sections of the homepage can be found in the template-parts directory. Most of these template parts are called from the front-page.php file, but the hero is called conditionally by a function located at inc/theme/load-hero.php.
 
 - In the second row of cards: there are discrepancies between the text that is visible on the XD artboard and the content that's actually in the assets. I chose to truncate the text so that it looks like the artboard, but the content would have to be fixed if this were for a production site.
 
