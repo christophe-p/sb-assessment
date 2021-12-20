@@ -15,20 +15,6 @@ Use it to make something cool, have fun, and share what you've learned.
 */
 /* Color variables */
 /* Theme colors */
-/* Delete */
-/* Alice Blue */
-/* Midnight Blue */
-/*$primary-color-light: lighten($primary-color, 20%);*/
-/* Capri */
-/* Electric Blue */
-/* Slate Grey */
-/* Utility colors */
-/* Rich Black FOGRA 39*/
-/* Example use of the darken & lighten Sass functions */
-/*
-$accent-color-hover: darken($accent-color, 5%);
-$accent-color-hover: lighten($accent-color, 5%);
-*/
 /* Font variables */
 /* line 1, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/variables/_placeholders.scss */
 h1, h2, h3, h4, h5, h6 {
@@ -156,35 +142,6 @@ figure {
   padding-left: 0;
   padding-right: 0;
   max-width: 1000px;
-}
-
-/* line 32, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_layout.scss */
-.entry-header .wp-post-image {
-  margin-bottom: 1.5em;
-}
-
-/* line 36, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_layout.scss */
-.wp-post-image {
-  display: block;
-  margin: 0 auto;
-}
-
-/* line 41, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_layout.scss */
-.entry-footer span {
-  margin-right: 1em;
-}
-
-/* line 45, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_layout.scss */
-.entry-footer {
-  color: #393d3f;
-  font-size: smaller;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #d3d3d3;
-}
-
-/* line 52, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_layout.scss */
-.type-page footer.entry-footer {
-  display: none;
 }
 
 /* line 1, ../../../../../Local Sites/sb-assessment/app/public/wp-content/themes/azara-healthcare/sass/theme/_header.scss */

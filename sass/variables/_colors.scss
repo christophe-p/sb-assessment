@@ -10,34 +10,3 @@ $azara-green: #8CAD44;
 $azara-dark-grey: #333333;
 $azara-medium-grey: #666666;
 $azara-light-grey: #DDDDDD;
-
-
-/* Delete */
-
-$primary-bg-color: #fff;
-$secondary-bg-color: #EFF4FB; /* Alice Blue */
-
-$primary-color: #201565; /* Midnight Blue */
-
-/*$primary-color-light: lighten($primary-color, 20%);*/
-$primary-color-light: lighten($primary-color, 3%);
-
-$secondary-color: #0ABEFF; /* Capri */
-
-$accent-color: #86E6E9; /* Electric Blue */
-
-$primary-text-color: #393d3f; /* Slate Grey */
-
-/* Utility colors */
-$my-white: #fff;
-$my-black: #080708; /* Rich Black FOGRA 39*/
-$my-grey: #d3d3d3;
-$my-mediumgrey: #e6e6e6;
-$my-lightgrey: #f1f1f1;
-$my-darkgrey: #a6a6a6;
-
-/* Example use of the darken & lighten Sass functions */
-/*
-$accent-color-hover: darken($accent-color, 5%);
-$accent-color-hover: lighten($accent-color, 5%);
-*/

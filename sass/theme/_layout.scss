@@ -28,27 +28,3 @@
   padding-right: 0;
   max-width: $content-max-width;
 }
-
-.entry-header .wp-post-image {
-  margin-bottom: 1.5em;
-}
-
-.wp-post-image {
-  display: block;
-  margin: 0 auto;
-}
-
-.entry-footer span {
-  margin-right: 1em;
-}
-
-.entry-footer {
-  color: $primary-text-color;
-  font-size: smaller;
-  padding-bottom: 40px;
-  border-bottom: 1px solid $my-grey;
-}
-
-.type-page footer.entry-footer {
-  display: none;
-}
